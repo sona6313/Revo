@@ -1,0 +1,19 @@
+@import '../../../assets/scss/base/colors';
+@import '../../../assets/scss/base/fonts';
+@import '../../../assets/scss/base/mixins';
+.main{
+    // background-color: aliceblue;
+
+    .heading{
+          font-size: large; 
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    .box{
+        width: 300px;
+        border: 1px solid rgb(0, 92, 128);
+        padding: 10px;
+        margin: 20px; 
+        border-radius: 9%;
+   
+    } 
+}

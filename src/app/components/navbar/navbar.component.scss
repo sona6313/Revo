@@ -1,0 +1,40 @@
+@import '../../../assets/scss/base/colors';
+@import '../../../assets/scss/base/fonts';
+@import '../../../assets/scss/base/mixins';
+
+.main{
+   
+.parent{
+    @include d-flex(space-between ,center) ;
+    background-color: rgb(244, 246, 238);
+}
+
+.userlogo img{
+    @include  border-radius(900%);
+}
+.name-company{
+    margin-left: 60px;
+}
+.home{
+    @include d-flex(space-between ,center) ;
+    color: red;
+}
+.button li{
+    color: red;
+}
+
+.preview{
+    background-color:#dadbdc;
+    color: red;
+    border-radius: 90rem;
+   padding: 20px;
+    border-style: none;
+    width: 120px;
+}
+
+.navbar{
+    @include d-flex(space-between ,center) ;
+    
+}
+
+}

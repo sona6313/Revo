@@ -1,0 +1,100 @@
+@import "../../../assets/scss/base/colors";
+@import "../../../assets/scss/base/fonts";
+@import "../../../assets/scss/base/mixins";
+
+.main {
+  .navbar {
+    @include d-flex(space-evenly, center);
+    padding: 8px;
+    background-color: #dddddd;
+
+    .navo {
+      color: red;
+
+      .home {
+        color: rgb(2, 2, 2);
+      }
+    }
+
+    .list-items {
+      letter-spacing: 0ch;
+      border: none;
+      outline: none;
+    }
+  }
+
+  .flex {
+    @include d-flex(center, center);
+    height: 32rem;
+    background-color: #0aaeae;
+  }
+
+  .backgorund {
+    @include d-flex(center, center);
+    margin-right: 14%;
+    position: absolute;
+    flex-direction: column;
+  }
+
+  .h2 {
+    font-size: 1cm;
+    color: #dddddd;
+  }
+
+  .small {
+    color: #dddddd;
+    justify-content: center;
+  }
+
+  .button {
+    background-color: #dddddd;
+    border-radius: 20rem;
+    width: 35%;
+    height: 1cm;
+    border-style: none;
+  }
+
+  .box {
+    background-color: black;
+    justify-content: space-evenly;
+    width: 90%;
+    bottom: 120%;
+    display: flex;
+    padding: 2px;
+    height: 5ch;
+    border-radius: 14%;
+  }
+
+  .box-line {
+    color: #dddddd;
+    border-right: 1px solid white;
+  }
+ .round-box{
+    background-color: #dddddd;
+    display: flex;
+    border-radius: 9%;
+    width: 90%;
+    padding: 0px;
+   
+    justify-content: space-evenly;
+ }
+  
+.loc-details{
+    color: #636262;
+}
+  .button2 {
+    border-color: red;
+    border-radius: 39%;
+    width: 10%;
+}
+.lis-it{
+    font-style: italic;
+    letter-spacing: 0ch;
+    border: none;
+    outline: none;
+}
+.search{
+    display: flex;
+    justify-content: space-evenly;
+}
+}
