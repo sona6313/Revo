@@ -38,6 +38,7 @@
   @include flex-v-center;
   justify-content: center;
 }
+
 @mixin flex-d-wrap {
   display: flex;
 }
@@ -121,3 +122,26 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+@mixin button-style($padding,$width,$border-radius){
+  padding :$padding;
+  width :$width;
+  border-radius: $border-radius;
+}
+@mixin circle-color-round($background-color,$width,$height,$position,$z-index,$border-radius){
+ background-color: $background-color;
+ width: $width;
+ height: $height;
+ position: $position;
+ z-index: $z-index;
+ border-radius: $border-radius;
+}
+
+@mixin card-making( $width,$height,$background-color,$box-shadow,$border-radius,$position){
+  width: $width;
+  height: $height;
+  background-color: $background-color;
+  box-shadow: $box-shadow;
+  border-radius: $border-radius;
+  position:$position;
+}
+

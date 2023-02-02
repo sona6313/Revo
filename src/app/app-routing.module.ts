@@ -4,12 +4,14 @@ import { BasicdetailsComponent } from './components/basicdetails/basicdetails.co
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { PropertyComponent } from './components/property/property.component';
+import { ResidentComponent } from './components/resident/resident.component';
 
 const routes: Routes = [
   {path:'', component:LandingpageComponent},
   {path:'bas', component:BasicdetailsComponent},
   {path:'basicDetails',component:BasicdetailsComponent},
-  {path:'property',component:PropertyComponent}
+  {path:'property',component:PropertyComponent},
+  {path:'er',component:ResidentComponent},
 ];
 
 @NgModule({

@@ -7,6 +7,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { BasicdetailsComponent } from './components/basicdetails/basicdetails.component';
 import { PropertyComponent } from './components/property/property.component';
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
+import { LandfooterComponent } from './components/landfooter/landfooter.component';
+import { ResidentComponent } from './components/resident/resident.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { LandingpageComponent } from './components/landingpage/landingpage.compo
     BasicdetailsComponent,
     PropertyComponent,
     LandingpageComponent,
+    LandfooterComponent,
+    ResidentComponent,
   ],
   imports: [
     BrowserModule,
