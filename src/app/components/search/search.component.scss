@@ -1,0 +1,76 @@
+@import '../../../assets/scss/base/colors';
+@import '../../../assets/scss/base/fonts';
+@import '../../../assets/scss/base/mixins';
+.main{
+    .searchh {
+        @include d-flex(space-evenly, center);
+        list-style: none;
+        margin-bottom: 3em;
+    
+        .search01 {
+            margin-top: 1.3em;
+          text-align: center;
+          border-radius: 3rem;
+          background-color: #e6eeee;
+          padding: .9em;
+          width: 9em;
+          box-shadow: 0 0px 1px white;
+        }
+      }
+      .card-flex {
+        @include d-flex(space-evenly, center);
+      }
+      .card-section {
+        @include d-flex(center, center);
+        .card-container {
+          @include d-flex(center, center);
+          @include flex-fd-column;
+          .card {
+            @include d-flex(center, center);
+            @include card-making(
+              6rem,
+              6rem,
+              #f8f2f7,
+              0 0 20px rgba(16, 16, 16, 0.466),
+              0.6rem,
+              relative
+            );
+            .card-icon {
+              z-index: 2;
+            }
+            .card-circle-11 {
+              @include circle-color-round(#5E47DC, 3rem, 3rem, absolute, 0px, 50%);
+            }
+            .card-circle-1 {
+              @include circle-color-round(#4FCB9E, 3rem, 3rem, absolute, 0px, 50%);
+            }
+            .card-circle-2 {
+              @include circle-color-round(#8F1BC1, 3rem, 3rem, absolute, 0px, 50%);
+            }
+            .card-circle-3 {
+              @include circle-color-round(#A8A93D, 3rem, 3rem, absolute, 0px, 50%);
+            }
+            .card-circle-4 {
+              @include circle-color-round(#E3991E, 3rem, 3rem, absolute, 0px, 50%);
+            }
+            .card-circle-5 {
+              @include circle-color-round(#E22D84, 3rem, 3rem, absolute, 0px, 50%);
+            }
+            .card-circle-6 {
+              @include circle-color-round(#DCA38C, 3rem, 3rem, absolute, 0px, 50%);
+            }
+            .card-circle-7 {
+              @include circle-color-round(#6592D7, 3rem, 3rem, absolute, 0px, 50%);
+            
+            }
+          }
+        }
+        .card-title {
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          width: 90px;
+           text-align: center;
+          text-align: center;
+          @include flex-fd-column;
+        }
+      }
+}

@@ -59,12 +59,17 @@
         .apleicn{
             font-size: 2rem;
         }
+        .apleicnf{
+            // font-size: 1rem;
+            width: 2rem;
+        }
     }
 }  
  .footblue{
     @include d-flex(space-evenly, center);
     margin-top: 9rem;
     background-color: #001B49;
+    
     width: 99rem;
     height: 20rem;
     color: white;
@@ -81,20 +86,21 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    }
 } 
-.last{
-    // @include d-flex(center, center);
-    // padding: .8rem;
-    // width: 8rem;
-    // gap:5rem;
-    font-size: 1.6em;
-    @include d-flex(space-evenly, center);
-    // 
-}
+
 .div{
     @include d-flex(space-evenly, center);
     display: flex;
     flex-direction: column;
     gap:.7rem;    
+    .last{
+        // @include d-flex(center, center);
+        // padding: .8rem;
+        // width: 8rem;
+        gap:1rem;
+        // font-size: 1.em;
+        @include d-flex(space-evenly, center);
+        // 
+    }
 }
 .plst{
     font-size: medium;

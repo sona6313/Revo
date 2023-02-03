@@ -9,6 +9,10 @@ import { PropertyComponent } from './components/property/property.component';
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
 import { LandfooterComponent } from './components/landfooter/landfooter.component';
 import { ResidentComponent } from './components/resident/resident.component';
+import { BuildersComponent } from './components/builders/builders.component';
+import { SearchComponent } from './components/search/search.component';
+import { BigcardcolComponent } from './components/bigcardcol/bigcardcol.component';
+import { LastboxComponent } from './components/lastbox/lastbox.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +23,10 @@ import { ResidentComponent } from './components/resident/resident.component';
     LandingpageComponent,
     LandfooterComponent,
     ResidentComponent,
+    BuildersComponent,
+    SearchComponent,
+    BigcardcolComponent,
+    LastboxComponent,
   ],
   imports: [
     BrowserModule,

@@ -3,38 +3,45 @@
 @import '../../../assets/scss/base/mixins';
 
 .main{
-   
-.parent{
-    @include d-flex(space-between ,center) ;
-    background-color: rgb(244, 246, 238);
-}
-
-.userlogo img{
-    @include  border-radius(900%);
-}
-.name-company{
-    margin-left: 60px;
-}
-.home{
-    @include d-flex(space-between ,center) ;
-    color: red;
-}
-.button li{
-    color: red;
-}
-
-.preview{
-    background-color:#dadbdc;
-    color: red;
-    border-radius: 90rem;
-   padding: 20px;
-    border-style: none;
-    width: 120px;
-}
-
-.navbar{
-    @include d-flex(space-between ,center) ;
+  padding: 1rem;
+  
+    .navbar {
+        @include d-flex(space-evenly, center);
+        
+        
+        background-color: #f7f7f7;
+        height: 6.5rem;
+        
+     .navo {
+          color: red;
+          font-size: 1.6rem;
     
+          .home {
+            color: rgb(2, 2, 2);
+          }
+          .company-name {
+            display: block;
+          }
+        }
+    
+        .nav-grp {
+          @include d-flex(space-evenly, center);
+        }
+        .list-items {
+          letter-spacing: 0ch;
+          border: none;
+          outline: none;
+        //   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+        }
+      }
+      .nav-tems{
+display: flex;
+justify-content: space-evenly;
+gap: 6rem;
+font-size: 1.2rem;
+font-weight: 500;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+  
 }

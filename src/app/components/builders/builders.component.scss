@@ -1,0 +1,60 @@
+@import "../../../assets/scss/base/colors";
+@import "../../../assets/scss/base/fonts";
+@import "../../../assets/scss/base/mixins";
+@import "../../../assets/scss/base/typography";
+.main {
+    .cardicon{
+        @include circle-color-round(#5E47DC, 3rem, 3rem, absolute, 0px, 50%);
+      }
+    .last-box{
+        margin-top: 2rem;
+        background-color: #ffffff;
+        padding: 4rem;
+        .sw{
+          padding: 3rem;
+        }
+        .h2buil{
+          line-height: .8rem;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .box-flex{
+          @include d-flex(space-evenly, center);
+            .lastcard{
+              border-radius: 1rem;
+              background-color: #fffcfc;
+              width: 15rem;
+              height: 16rem;
+
+            }
+      .bcic{
+        justify-content: center;
+        align-items: center;
+        gap:32rem;
+    
+      
+}
+        
+box-shadow: 0 0 20px rgba(174, 171, 171, 0.767);
+.imgs{
+padding: 2rem;
+ width: 12rem; 
+}
+.imga{
+ padding: 1rem;
+  width: 11rem; 
+  height: 10rem;
+ align-items: center;
+
+ }
+.namel{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+}
+
+
+}
+
+
+}
+}
